@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity =0.8.26;
+pragma solidity ^0.8.26;
 
 contract MyMapping {
     mapping(address => uint256) private balance; // storage slot 0
